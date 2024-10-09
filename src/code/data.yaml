@@ -1,0 +1,13 @@
+train: C:/Users/Jilen/PycharmProjects/Size Recommendation/src/Data3/train/images
+val: C:/Users/Jilen/PycharmProjects/Size Recommendation/src/Data3/valid/images
+test: C:/Users/Jilen/PycharmProjects/Size Recommendation/src/Data3/test/images
+
+nc: 6
+names: ['Bottom_oversize', 'Bottom_regular', 'Long_oversize', 'Long_regular', 'Top_oversize', 'Top_regular']
+
+roboflow:
+  workspace: oversizerecommandation
+  project: oversize_detection
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/oversizerecommandation/oversize_detection/dataset/1
